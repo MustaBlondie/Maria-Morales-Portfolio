@@ -1,7 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppHeader from '@/components/layout/AppHeader.vue'
+import AppMain from './components/layout/AppMain.vue'
+</script>
 
 <template>
-  <h1 class="text-5xl text-cyan-600">hola</h1>
+  <AppHeader />
+  <AppMain />
 </template>
 
 <style scoped></style>
