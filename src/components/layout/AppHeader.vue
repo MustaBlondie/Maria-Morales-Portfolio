@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <header class="h-auto w-full sm:px-14 flex flex-col bg-[#FFF7F4]">
+  <header class="w-full sm:px-14 flex flex-col bg-[#FFF7F4]">
     <div
       class="hidden sm:flex justify-between margin my-8 px-9 py-3 border-t border-b border-b-black font-semibold"
     >
