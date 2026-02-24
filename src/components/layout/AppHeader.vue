@@ -1,21 +1,25 @@
 <script setup></script>
 
 <template>
-  <header class="h-auto px-14 flex flex-col bg-[#FFF7F4]">
+  <header class="h-auto w-full sm:px-14 flex flex-col bg-[#FFF7F4]">
     <div
-      class="margin my-8 px-9 py-3 border-t border-b border-b-black flex justify-between font-semibold"
+      class="hidden sm:flex justify-between margin my-8 px-9 py-3 border-t border-b border-b-black font-semibold"
     >
       <div class="cursor-pointer">ABOUT</div>
       <div class="cursor-pointer">PROJECTS</div>
       <div class="cursor-pointer">CONTACT</div>
       <div class="cursor-pointer">EN/SP</div>
     </div>
-    <div class="flex flex-col ml-auto mt-96">
-      <h2 class="text-8xl font-extrabold p-3.5">MARIA MORALES</h2>
-      <h1 class="text-3xl font-semibold text-right px-3.5">JUNIOR WEB DEVELOPER</h1>
+    <div class="flex flex-col-reverse sm:flex-col sm:ml-auto sm:mt-96 mt-9 ml-5">
+      <h2 class="sm:text-8xl text-base font-semibold sm:p-3.5 -mt-2">MARIA MORALES</h2>
+      <h1 class="sm:text-3xl text-xl sm:font-semibold font-extrabold sm:text-right sm:px-3.5">
+        WEB DEVELOPER
+      </h1>
     </div>
-    <div>
-      <button class="text-lg font-semibold border-2 rounded px-8 py-2.5 mt-28 mb-10 cursor-pointer">
+    <div class="ml-5 sm:mt-28 sm:mb-10 mb-2 mt-8">
+      <button
+        class="sm:text-lg text-xs font-semibold border-2 rounded sm:px-8 px-3.5 sm:py-2.5 py-1 cursor-pointer"
+      >
         RESUME
       </button>
     </div>
