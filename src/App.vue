@@ -1,11 +1,9 @@
 <script setup lang="ts">
-import AppHeader from '@/components/layout/AppHeader.vue'
-import AppMain from './components/layout/AppMain.vue'
+import HeaderAndHeroSection from './components/sections/HeaderAndHeroSection.vue'
 </script>
 
 <template>
-  <AppHeader />
-  <AppMain />
+  <HeaderAndHeroSection />
 </template>
 
 <style scoped></style>

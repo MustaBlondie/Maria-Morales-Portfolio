@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup lang="ts">
+import { ref } from 'vue'
+const show = ref(false)
+</script>
 
 <template>
   <header class="w-full sm:min-h-screen sm:px-14 flex flex-col bg-[#FFF7F4]">
@@ -20,11 +23,12 @@
       </div>
     </div>
 
-    <div class="ml-5 sm:mt-28 sm:mb-10 mb-2 mt-10">
+    <div class="ml-5 sm:mt-28 sm:mb-10 mb-2 mt-10 flex flex-row">
       <button
+        @click="show = !show"
         class="sm:text-lg text-xs font-semibold border-2 rounded-md sm:rounded-lg sm:px-5 px-3.5 sm:py-0.5 py-1 cursor-pointer"
       >
-        RESUME
+        CV
       </button>
     </div>
   </header>
