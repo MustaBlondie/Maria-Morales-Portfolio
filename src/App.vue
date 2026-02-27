@@ -1,9 +1,5 @@
-<script setup lang="ts">
-import HeaderAndHeroSection from './components/sections/HeaderAndHeroSection.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <HeaderAndHeroSection />
+  <router-view />
 </template>
-
-<style scoped></style>
