@@ -23,7 +23,7 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Vue Configuration */
-    "types": ["vite/client"],
+    "types": ["vite/client", "unplugin-icons/types/vue"],
 
     /* Paths */
     "baseUrl": ".",

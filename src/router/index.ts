@@ -5,27 +5,27 @@ const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'Home',
-    component: () => import('@/components/sections/HeaderAndHeroSection.vue'),
+    component: () => import('@/components/pages/HomePage.vue'),
   },
   {
     path: '/about',
     name: 'About',
-    component: () => import('@/components/sections/AboutSection.vue'),
+    component: () => import('@/components/pages/AboutPage.vue'),
   },
   {
     path: '/projects',
     name: 'Projects',
-    component: () => import('@/components/sections/ProjectsSection.vue'),
+    component: () => import('@/components/pages/ProjectsPage.vue'),
   },
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import('@/components/sections/ContactSection.vue'),
+    component: () => import('@/components/pages/ContactPage.vue'),
   },
   {
     path: '/curriculum',
     name: 'Cv',
-    component: () => import('@/components/sections/CvSection.vue'),
+    component: () => import('@/components/pages/CvPage.vue'),
   },
 ]
 
