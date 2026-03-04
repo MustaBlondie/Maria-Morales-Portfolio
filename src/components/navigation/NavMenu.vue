@@ -1,7 +1,7 @@
 <script setup ts></script>
 <template>
   <div
-    class="hidden sm:flex justify-between my-8 px-9 py-3 border-t border-b border-b-black font-semibold"
+    class="hidden w-full sm:flex justify-between items-center my-8 px-9 py-3 border-t border-b border-black font-semibold"
   >
     <router-link to="/about">
       <div class="cursor-pointer">ABOUT</div>
