@@ -3,6 +3,10 @@ import BaseArrowButton from '../shared/BaseArrowButton.vue'
 </script>
 
 <template>
-  <BaseArrowButton />
-  <h1>Contratame wey jajaja</h1>
+  <div class="w-full sm:min-h-screen flex flex-col bg-black">
+    <div class="container sm:mx-auto sm:h-full flex flex-col flex-1">
+      <BaseArrowButton class="text-white" />
+      <h1 class="text-pink-600 font-extrabold text-[40px]">CONTRATAME WEY jeje</h1>
+    </div>
+  </div>
 </template>
