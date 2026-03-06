@@ -13,9 +13,9 @@ const props = withDefaults(defineProps<Props>(), {
 
 const positionClasses = computed((): string => {
   const positions: Record<HeroTitlePosition, string> = {
-    home: 'sm:justify-end  sm:items-end',
+    home: 'sm:items-end sm:justify-end',
     about: 'sm:justify-start  sm:items-end sm:mt-14',
-    default: '',
+    default: 'sm:justify-center',
   }
   return positions[props.position]
 })
@@ -40,8 +40,8 @@ const titleClasses = computed((): Record<string, string> => {
 </script>
 
 <template>
-  <div class="flex flex-1 pt-3.5 sm:pl-9">
-    <div :class="['sm:text-right flex sm:flex-col flex-col-reverse mt-9 mt', positionClasses]">
+  <div class="flex flex-1 pt-3.5 sm:pl-9 sm:ml-auto">
+    <div :class="['sm:text-right flex sm:flex-col flex-col-reverse mt-9', positionClasses]">
       <h2 :class="['text-base font-semibold sm:font-extrabold', titleClasses.h2]">MARIA MORALES</h2>
       <h1 :class="['text-xl sm:font-semibold font-extrabold', titleClasses.h1]">WEB DEVELOPER</h1>
     </div>
