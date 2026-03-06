@@ -8,12 +8,10 @@ import Skills from '../skills/Skills.vue'
 <template>
   <div class="w-full sm:min-h-screen px-5 flex flex-col bg-[#FFF7F4]">
     <div class="container sm:mx-auto sm:h-full flex flex-col flex-1 sm:justify-between">
-      <div class="flex">
-        <div class="flex sm:gap-52">
-          <BaseArrowButton />
-          <BaseHeroTitle position="about" />
-        </div>
+      <div class="w-full flex">
+        <BaseArrowButton />
 
+        <BaseHeroTitle position="about" />
         <h2
           class="[writing-mode:vertical-lr] font-extrabold sm:text-5xl text-center :ml-2.5 sm:mt-17.5"
         >

@@ -14,7 +14,7 @@ const props = withDefaults(defineProps<Props>(), {
 const positionClasses = computed((): string => {
   const positions: Record<HeroTitlePosition, string> = {
     home: 'sm:items-end sm:justify-end',
-    about: 'sm:justify-start  sm:items-end sm:mt-14',
+    about: 'sm:mt-14 sm:ml-auto',
     default: 'sm:justify-center',
   }
   return positions[props.position]
@@ -28,7 +28,7 @@ const titleClasses = computed((): Record<string, string> => {
     },
     about: {
       h1: 'sm:text-4xl sm:mt-9',
-      h2: 'sm:text-7xl',
+      h2: 'sm:text-8xl',
     },
     default: {
       h1: '',
