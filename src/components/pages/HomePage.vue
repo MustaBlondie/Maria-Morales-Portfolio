@@ -2,6 +2,7 @@
 import NavMenu from '../navigation/NavMenu.vue'
 import CvButton from '../shared/BaseCvButton.vue'
 import HeroTitle from '../shared/BaseHeroTitle.vue'
+import AboutPage from './AboutPage.vue'
 </script>
 
 <template>
@@ -12,4 +13,5 @@ import HeroTitle from '../shared/BaseHeroTitle.vue'
       <CvButton position="home" />
     </header>
   </div>
+  <AboutPage />
 </template>

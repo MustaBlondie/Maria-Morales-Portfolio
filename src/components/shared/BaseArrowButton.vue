@@ -4,6 +4,6 @@ import PixelArrowAltCircleLeft from '~icons/pixel/arrow-alt-circle-left'
 
 <template>
   <router-link to="/">
-    <PixelArrowAltCircleLeft class="w-12 h-12 mt-12 mb-2.5" />
+    <PixelArrowAltCircleLeft class="hidden sm:block sm:w-12 sm:h-12 sm:mt-12 sm:mb-2.5" />
   </router-link>
 </template>
