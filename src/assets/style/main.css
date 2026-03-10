@@ -3,11 +3,18 @@
 @layer base {
   html {
     font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
   }
 
   @supports (font-variation-settings: normal) {
     html {
       font-family: 'Inter var', sans-serif;
+    }
+  }
+  @media (max-width: 640px) {
+    html {
+      scroll-behavior: smooth;
+      -webkit-overflow-scrolling: touch;
     }
   }
 }
