@@ -3,6 +3,9 @@ import NavMenu from '../navigation/NavMenu.vue'
 import CvButton from '../shared/BaseCvButton.vue'
 import HeroTitle from '../shared/BaseHeroTitle.vue'
 import AboutPage from './AboutPage.vue'
+import { useWindowWidth } from '../composables/useWindowWidth'
+
+const { isMobile } = useWindowWidth()
 </script>
 
 <template>
@@ -13,5 +16,5 @@ import AboutPage from './AboutPage.vue'
       <CvButton position="home" />
     </header>
   </div>
-  <AboutPage />
+  <AboutPage v-if="isMobile" />
 </template>

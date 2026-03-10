@@ -17,7 +17,7 @@ const positionClasses = computed((): Record<string, string> => {
       container: 'sm:mt-28 sm:mb-10 mb-2 mt-10 flex flex-row',
     },
     about: {
-      container: 'sm:mt-5 sm:mb-10 mb-2 mt-10 flex justify-end',
+      container: 'hidden sm:mt-5 sm:mb-10 mb-2 mt-10 sm:flex sm:justify-end',
     },
     default: {
       container: '',

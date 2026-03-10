@@ -8,7 +8,7 @@ import Skills from '../skills/Skills.vue'
 <template>
   <div class="w-full sm:min-h-screen px-5 flex flex-col sm:bg-[#FFF7F4]">
     <div class="container sm:mx-auto sm:h-full flex flex-col flex-1 sm:justify-between">
-      <div class="w-full flex">
+      <div class="sm:flex">
         <BaseArrowButton />
 
         <BaseHeroTitle position="about" />
