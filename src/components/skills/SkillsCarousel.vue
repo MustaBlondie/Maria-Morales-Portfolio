@@ -10,14 +10,32 @@ import SiConsole from '~icons/simple-icons/gnometerminal'
 </script>
 
 <template>
-  <div class="px-5 py-8 flex justify-center gap-10">
-    <SiHtml5 class="text-[#FFF7F4] w-20 h-20" />
-    <SiJs class="text-[#FFF7F4] w-20 h-20" />
-    <SiCss class="text-[#FFF7F4] w-20 h-20" />
-    <SiFigma class="text-[#FFF7F4] w-20 h-20" />
-    <SiVue class="text-[#FFF7F4] w-20 h-20" />
-    <SiTs class="text-[#FFF7F4] w-20 h-20" />
-    <SiTw class="text-[#FFF7F4] w-20 h-20" />
-    <SiConsole class="text-[#FFF7F4] w-20 h-20" />
+  <div
+    class="sm:px-5 sm:py-8 flex justify-evenly sm:justify-center gap-3.5 sm:gap-10 overflow-hidden"
+  >
+    <div class="w-36 sm:w-20 sm:h-20">
+      <SiHtml5 class="text-[#FFF7F4] w-full h-full" />
+    </div>
+    <div class="w-36 sm:w-20 h-36 sm:h-20">
+      <SiJs class="text-[#FFF7F4] w-full h-full" />
+    </div>
+    <div class="w-36 sm:w-20 h-36 sm:h-20">
+      <SiCss class="text-[#FFF7F4] w-full h-full" />
+    </div>
+    <div class="w-36 sm:w-20 h-36 sm:h-20">
+      <SiFigma class="text-[#FFF7F4] w-full h-full" />
+    </div>
+    <div class="w-36 sm:w-20 h-36 sm:h-20">
+      <SiVue class="text-[#FFF7F4] w-full h-full" />
+    </div>
+    <div class="w-36 sm:w-20 h-36 sm:h-20">
+      <SiTs class="text-[#FFF7F4] w-full h-full" />
+    </div>
+    <div class="w-36 sm:w-20 h-36 sm:h-20">
+      <SiTw class="text-[#FFF7F4] w-full h-full" />
+    </div>
+    <div class="w-36 sm:w-20 h-36 sm:h-20">
+      <SiConsole class="text-[#FFF7F4] w-full h-full" />
+    </div>
   </div>
 </template>
