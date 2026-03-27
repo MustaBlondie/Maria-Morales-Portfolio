@@ -3,6 +3,9 @@ import BaseArrowButton from '../shared/BaseArrowButton.vue'
 </script>
 
 <template>
-  <BaseArrowButton />
-  <h1>mis fabulosos proyectos</h1>
+  <div class="w-full sm:min-h-screen flex flex-col bg-black">
+    <div class="container sm:mx-auto sm:h-full flex flex-col flex-1">
+      <BaseArrowButton class="text-white" />
+    </div>
+  </div>
 </template>
