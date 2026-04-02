@@ -1,8 +1,44 @@
 @import 'tailwindcss';
 
+/* ========== FUENTE 1 ========== */
+@font-face {
+  font-family: 'MainInterMediun';
+  src: url('../fonts/Inter_18pt-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MainInterSemiBold';
+  src: url('../fonts/Inter_18pt-SemiBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MainInterExtraBold';
+  src: url('../fonts/Inter_18pt-ExtraBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ========== FUENTE 2 ========== */
+@font-face {
+  font-family: 'SecondFahkwangSemiBold';
+  src: url('../fonts/Fahkwang-SemiBold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SecondFuenteBold';
+  src: url('../fonts/Fahkwang-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
 @layer base {
   html {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter-Medium', sans-serif;
     scroll-behavior: smooth;
   }
 

@@ -21,7 +21,7 @@ const downloadPDF = () => {
     <div class="container sm:mx-auto sm:h-full flex flex-col flex-1">
       <BaseArrowButton class="text-white" />
       <div class="p-5 my-5">
-        <p class="text-amber-50 text-center text-3xl font-bold px-12">
+        <p class="text-amber-50 text-center text-[28px] font-['MainInterSemiBold'] px-12">
           Hola 👋 here you’ll find my CV— feel free to check it out or download it if you’d like!<br />
           Self-taught, course-trained, and holder of two Technical University Degrees— always
           building, always improving 😌
@@ -39,12 +39,12 @@ const downloadPDF = () => {
           </div>
         </div>
 
-        <div class="flex flex-col items-center justify-center mt-6">
-          <h2 class="text-amber-50">DOWNLOAD</h2>
+        <div class="flex flex-col items-center justify-center mt-6 p-2.5">
+          <h2 class="text-amber-50 font-['SecondFahkwangSemiBold']">DESCARGAR</h2>
           <button @click="downloadPDF" class="text-amber-50 text-2xl flex flex-col items-center">
             <!-- <PixelChevronDown2 class="w-24 h-24" /> -->
 
-            <DownloadIcon class="w-24 h-18" />
+            <DownloadIcon class="w-24 h-7 mt-2.5" />
           </button>
         </div>
       </div>
