@@ -1,8 +1,8 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import BaseArrowButton from '../shared/BaseArrowButton.vue'
 import PixelChevronDown2 from '~icons/pixelarticons/chevron-down-2?scale=2.4'
-
-import { ref } from 'vue'
+import DownloadIcon from '../shared/DownloadIcon.vue'
 
 const pdfPath = '/curriculum.pdf#toolbar=0'
 
@@ -42,7 +42,9 @@ const downloadPDF = () => {
         <div class="flex flex-col items-center justify-center mt-6">
           <h2 class="text-amber-50">DOWNLOAD</h2>
           <button @click="downloadPDF" class="text-amber-50 text-2xl flex flex-col items-center">
-            <PixelChevronDown2 class="w-12 h-12" />
+            <!-- <PixelChevronDown2 class="w-24 h-24" /> -->
+
+            <DownloadIcon class="w-24 h-18" />
           </button>
         </div>
       </div>
