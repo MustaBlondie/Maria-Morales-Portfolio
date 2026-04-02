@@ -3,6 +3,8 @@ import BaseArrowButton from '../shared/BaseArrowButton.vue'
 import BaseCvButton from '../shared/BaseCvButton.vue'
 import BaseHeroTitle from '../shared/BaseHeroTitle.vue'
 import Skills from '../skills/Skills.vue'
+
+const emit = defineEmits<{ close: []}>()
 </script>
 
 <template>
@@ -10,7 +12,7 @@ import Skills from '../skills/Skills.vue'
     <div class="container sm:mx-auto sm:h-full flex flex-col flex-1 sm:justify-between">
       <div class="flex sm:flex-col flex-row-reverse my-10">
         <div class="sm:flex">
-          <BaseArrowButton />
+          <BaseArrowButton @click="emit('close')" />
 
           <BaseHeroTitle position="about" />
           <h2

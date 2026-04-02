@@ -1,19 +1,23 @@
-<script setup ts></script>
+<script setup lang="ts">
+const emit = defineEmits<{ setScreen: ['home' | 'about'] }>()
+</script>
+
 <template>
   <div
     class="hidden w-full sm:flex justify-between items-center my-8 px-9 py-3 border-t border-b border-black font-semibold"
   >
-    <router-link to="/about">
-      <div class="cursor-pointer">ABOUT</div>
-    </router-link>
+    <button>
+      <div class="cursor-pointer" @click="emit('setScreen', 'about')">ABOUT</div>
+    </button>
 
-    <router-link to="/projects">
+    <button>
       <div class="cursor-pointer">PROJECTS</div>
-    </router-link>
+    </button>
 
-    <router-link to="/contact">
+    <button>
       <div class="cursor-pointer">CONTACT</div>
-    </router-link>
+    </button>
+
     <div class="cursor-pointer">EN/SP</div>
   </div>
 </template>
