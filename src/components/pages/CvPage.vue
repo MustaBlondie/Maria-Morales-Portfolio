@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import BaseArrowButton from '../shared/BaseArrowButton.vue'
-import PixelChevronDown2 from '~icons/pixelarticons/chevron-down-2?scale=2.4'
 import DownloadIcon from '../shared/DownloadIcon.vue'
+
+const emit = defineEmits<{ close: [] }>()
 
 const pdfPath = '/curriculum.pdf#toolbar=0'
 
@@ -19,7 +19,7 @@ const downloadPDF = () => {
 <template>
   <div class="w-full sm:min-h-screen flex flex-col bg-black">
     <div class="container sm:mx-auto sm:h-full flex flex-col flex-1">
-      <BaseArrowButton class="text-white" />
+      <BaseArrowButton class="text-white" @click="emit('close')" />
       <div class="p-5 my-5">
         <p class="text-amber-50 text-center text-[28px] font-['MainInterSemiBold'] px-12">
           Hola 👋 here you’ll find my CV— feel free to check it out or download it if you’d like!<br />

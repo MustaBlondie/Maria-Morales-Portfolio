@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const emit = defineEmits<{ setScreen: ['home' | 'about'] }>()
+const emit = defineEmits<{ setScreen: ['home' | 'about' | 'projects' | 'contact'] }>()
 </script>
 
 <template>
@@ -11,11 +11,11 @@ const emit = defineEmits<{ setScreen: ['home' | 'about'] }>()
     </button>
 
     <button>
-      <div class="cursor-pointer">PROJECTS</div>
+      <div class="cursor-pointer" @click="emit('setScreen', 'projects')">PROJECTS</div>
     </button>
 
     <button>
-      <div class="cursor-pointer">CONTACT</div>
+      <div class="cursor-pointer" @click="emit('setScreen', 'contact')">CONTACT</div>
     </button>
 
     <div class="cursor-pointer">EN/SP</div>

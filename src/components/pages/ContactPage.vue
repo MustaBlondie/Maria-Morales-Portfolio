@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import BaseArrowButton from '../shared/BaseArrowButton.vue'
+const emit = defineEmits<{ close: [] }>()
 </script>
 
 <template>
   <div class="w-full sm:min-h-screen flex flex-col bg-black">
     <div class="container sm:mx-auto sm:h-full flex flex-col flex-1">
-      <BaseArrowButton class="text-white" />
+      <BaseArrowButton class="text-white" @click="emit('close')" />
     </div>
   </div>
 </template>

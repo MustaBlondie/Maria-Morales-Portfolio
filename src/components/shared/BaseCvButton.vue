@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+const emit = defineEmits<{ setScreen: ['home' | 'Cv'] }>()
 
 type ButtonPosition = 'home' | 'about' | 'default'
 
@@ -30,12 +31,11 @@ const positionClasses = computed((): Record<string, string> => {
 
 <template>
   <div :class="positionClasses.container">
-    <router-link to="/curriculum">
-      <button
-        class="sm:text-lg text-xs font-semibold border-2 rounded-md sm:rounded-lg sm:px-5 px-3.5 sm:py-0.5 py-1 cursor-pointer"
-      >
-        CV
-      </button>
-    </router-link>
+    <button
+      @click="emit('setScreen', 'Cv')"
+      class="sm:text-lg text-xs font-semibold border-2 rounded-md sm:rounded-lg sm:px-5 px-3.5 sm:py-0.5 py-1 cursor-pointer"
+    >
+      CV
+    </button>
   </div>
 </template>
