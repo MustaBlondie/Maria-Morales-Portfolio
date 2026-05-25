@@ -22,11 +22,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
 
-    /* Vue Configuration */
-    "types": ["vite/client", "unplugin-icons/types/vue"],
+    "types": ["vite/client"],
 
-    /* Paths */
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     }
