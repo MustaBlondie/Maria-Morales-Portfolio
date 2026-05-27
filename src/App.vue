@@ -1,13 +1,13 @@
+<script setup lang="ts">
+import { Icon } from '@iconify/vue'
+</script>
+
 <template>
-  <div class="min-h-screen bg-blue-500">
-    <h1 class="text-4xl font-bold text-white text-center py-8">Hola Mundo - Portfolio de María</h1>
-    <p class="text-center text-white text-xl text-pink-500">
-      Si ves esto, Tailwind y Vue funcionan correctamente
-    </p>
-  </div>
-  <div class="bg-red-500 p-10">
-    <h1 class="text-white text-4xl">Si esto es rojo, Tailwind funciona</h1>
+  <div class="h-screen bg-[#111314]">
+    <div class="max-w-[1440px] mx-auto">
+      <div class="py-11 px-[570px]">
+        <Icon icon="game-icons:light-bulb" class="text-[45px] text-[#F8B6BA] rotate-180" />
+      </div>
+    </div>
   </div>
 </template>
-
-<script setup lang="ts"></script>
