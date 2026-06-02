@@ -1,12 +1,27 @@
 <script setup lang="ts">
-import { Icon } from '@iconify/vue'
+import ThemeToggle from './components/ThemeToggle.vue'
+import { useThemeStore } from './store/theme'
+import { storeToRefs } from 'pinia'
+
+const themeStore = useThemeStore()
+const { isDark } = storeToRefs(themeStore)
 </script>
 
 <template>
-  <div class="min-h-screen bg-[#111314]">
+  <div
+    class="min-h-screen transition-colors duration-300"
+    :class="{
+      'bg-primary text-primaryText': isDark,
+      'bg-secondary text-primary': !isDark,
+    }"
+  >
     <div class="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
       <div class="py-11 px-4 sm:px-8 md:px-[570px]">
-        <Icon icon="game-icons:light-bulb" class="text-[45px] text-[#F8B6BA] rotate-180" />
+        <ThemeToggle />
+
+        <h1 class="text-3xl font-bold mb-4">WEB DEVELOPER</h1>
+        <h2 class="text-3xl font-bold mb-4">Maria Morales</h2>
+        <p class="text-lg">Hola Chiquis</p>
       </div>
     </div>
   </div>
