@@ -9,7 +9,7 @@ const { isDark } = storeToRefs(themeStore)
 
 <template>
   <div
-    class="min-h-screen transition-colors duration-300"
+    class="min-h-screen transition-colors duration-300 font-roboto"
     :class="{
       'bg-primary text-primaryText': isDark,
       'bg-secondary text-primary': !isDark,
@@ -19,9 +19,9 @@ const { isDark } = storeToRefs(themeStore)
       <div class="py-11 px-4 sm:px-8 md:px-[570px]">
         <ThemeToggle />
 
-        <h1 class="text-3xl font-bold mb-4">WEB DEVELOPER</h1>
-        <h2 class="text-3xl font-bold mb-4">Maria Morales</h2>
-        <p class="text-lg">Hola Chiquis</p>
+        <h1 class="text-lg font-normal mb-4">WEB DEVELOPER</h1>
+        <h2 class="text-2xl font-normal mb-4">Maria Morales</h2>
+        <p class="text-lg font-extrabold">Hola Chiquis</p>
       </div>
     </div>
   </div>

@@ -9,6 +9,9 @@ export default {
         primaryText: '#F8B6BA', // Color letras en darkmode
         secondary: '#FDD4BD', // Color principal para bg en lightmode
       },
+      fontFamily: {
+        roboto: ['Roboto Slab', 'serif'],
+      },
     },
   },
   plugins: [],
