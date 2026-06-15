@@ -21,7 +21,6 @@ const { isDark } = storeToRefs(themeStore)
 
         <h1 class="text-lg font-normal mb-4">WEB DEVELOPER</h1>
         <h2 class="text-2xl font-normal mb-4">Maria Morales</h2>
-        <p class="text-lg font-extrabold">Hola Chiquis</p>
       </div>
     </div>
   </div>
