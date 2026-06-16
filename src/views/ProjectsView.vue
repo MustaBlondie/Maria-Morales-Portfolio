@@ -4,7 +4,7 @@ import Container from '@/components/Container.vue'
 <template>
   <Container>
     <div id="projects" class="mt-64">
-      <h1>Sorry, we're under construction PROJECTS</h1>
+      <h1>Hola chiquis PROJECTS</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque dignissimos illo
         illum dolores exercitationem, facilis magnam, quae ad eaque vero magni vitae, nesciunt sint
