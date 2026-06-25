@@ -1,4 +1,4 @@
-<script>
+<script setup lang="ts">
 import Container from './Container.vue'
 import ThemeToggle from './ThemeToggle.vue'
 </script>
