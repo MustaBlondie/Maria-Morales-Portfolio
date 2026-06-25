@@ -7,7 +7,13 @@ const themeStore = useThemeStore()
 const { isDark } = storeToRefs(themeStore)
 </script>
 <template>
-  <div class="flex gap-8">
+  <div
+    class="flex gap-8 pb-40 border-b-4"
+    :class="{
+      'border-primaryText': isDark,
+      'border-primary': !isDark,
+    }"
+  >
     <div
       class="w-[350px] h-[550px] border-r-4"
       :class="{

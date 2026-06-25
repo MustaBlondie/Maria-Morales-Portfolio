@@ -6,6 +6,7 @@ import ProjectsView from './views/ProjectsView.vue'
 
 import { useThemeStore } from './store/theme.ts'
 import { storeToRefs } from 'pinia'
+import StickyNavBar from './components/StickyNavBar.vue'
 
 const themeStore = useThemeStore()
 const { isDark } = storeToRefs(themeStore)
@@ -20,6 +21,7 @@ const { isDark } = storeToRefs(themeStore)
     }"
   >
     <HomeView />
+    <StickyNavBar />
     <AboutView />
     <ProjectsView />
     <ContactView />
