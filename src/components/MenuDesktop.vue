@@ -15,7 +15,7 @@ const { isDark } = storeToRefs(themeStore)
     }"
   >
     <div
-      class="w-[350px] h-[550px] border-r-4"
+      class="w-[350px] h-[550px] border-r-4 max-[640px]:hidden"
       :class="{
         'border-primaryText': isDark,
         'border-primary': !isDark,
@@ -30,9 +30,9 @@ const { isDark } = storeToRefs(themeStore)
         <a href="#contact">CONTACTS</a>
       </nav>
     </div>
-    <div class="flex items-end pb-10 text-[24px] font-extrabold tracking-wider">
+    <div class="max-[640px]:hidden flex items-end pb-10 text-[24px] font-extrabold tracking-wider">
       <button>ES</button>
-      <span> / </span>
+      <span class="mx-1"> / </span>
       <button>EN</button>
     </div>
     <Title />
