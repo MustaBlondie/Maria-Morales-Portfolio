@@ -1,40 +1,26 @@
 <script setup lang="ts">
-import { useThemeStore } from '@/store/theme'
-import { storeToRefs } from 'pinia'
-import Title from './Title.vue'
+import { useThemeBorder } from '@/composables/useThemeBoder'
+import { useThemeHover } from '@/composables/useThemeHover'
 
-const themeStore = useThemeStore()
-const { isDark } = storeToRefs(themeStore)
+const { borderClass } = useThemeBorder()
+const { hoverClass } = useThemeHover()
 </script>
 <template>
-  <div
-    class="flex gap-8 pb-40 border-b-4"
-    :class="{
-      'border-primaryText': isDark,
-      'border-primary': !isDark,
-    }"
-  >
-    <div
-      class="w-[350px] h-[550px] border-r-4 max-[640px]:hidden"
-      :class="{
-        'border-primaryText': isDark,
-        'border-primary': !isDark,
-      }"
-    >
+  <div class="flex gap-8">
+    <div class="w-[350px] h-[550px] border-r-4 max-[640px]:hidden" :class="borderClass">
       <nav
         class="flex flex-col gap-12 text-[24px] font-extrabold tracking-wider pl-[130px] pt-[100px]"
       >
-        <a href="#about">ABOUT</a>
-        <a href="#cv">CV</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#contact">CONTACTS</a>
+        <a href="#about" class="px-4 py-3 mr-1" :class="hoverClass">ABOUT</a>
+        <a href="#cv" class="px-4 py-3 mr-1" :class="hoverClass">CV</a>
+        <a href="#projects" class="px-4 py-3 mr-1" :class="hoverClass">PROJECTS</a>
+        <a href="#contact" class="px-4 py-3 mr-1" :class="hoverClass">CONTACTS</a>
       </nav>
     </div>
-    <div class="max-[640px]:hidden flex items-end pb-10 text-[24px] font-extrabold tracking-wider">
+    <div class="max-[640px]:hidden flex items-end pb-10 text-[24px] font-extrabold">
       <button>ES</button>
       <span class="mx-1"> / </span>
       <button>EN</button>
     </div>
-    <Title />
   </div>
 </template>
