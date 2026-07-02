@@ -15,8 +15,8 @@ const { isDark } = storeToRefs(themeStore)
   <div
     class="min-h-screen transition-colors duration-300 font-roboto"
     :class="{
-      'bg-primary text-primaryText  border-primaryText': isDark,
-      'bg-secondary text-primary border-primary': !isDark,
+      'bg-dark text-darkText': isDark,
+      'bg-light text-dark': !isDark,
     }"
   >
     <HomeView />
