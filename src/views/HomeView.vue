@@ -5,7 +5,6 @@ import Container from '@/components/Container.vue'
 import Title from '@/components/Title.vue'
 import { useThemeBorder } from '@/composables/useThemeBoder.ts'
 import { Icon } from '@iconify/vue'
-import MobileMenu from '@/components/MobileMenu.vue'
 
 const { borderClass } = useThemeBorder()
 
