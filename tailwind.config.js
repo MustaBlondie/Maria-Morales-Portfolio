@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         roboto: ['Roboto Slab', 'serif'],
       },
+      screens: {
+        900: '900px', //
+      },
     },
   },
   plugins: [],
