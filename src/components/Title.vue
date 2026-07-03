@@ -5,7 +5,7 @@ const { borderClass } = useThemeBorder()
 
 <template>
   <div
-    class="flex flex-col text-left text-[20px] pl-5 sm:mt-auto sm:ml-auto sm:pb-4 sm:pr-8 sm:gap-2 sm:text-[40px] 900:text-center 900:text-[48px]"
+    class="flex flex-col text-left text-[20px] pl-5 py-4 pr-2 border-l-4 900:border-none sm:mt-auto sm:ml-auto sm:pb-4 sm:pr-8 sm:gap-2 sm:text-[40px] 900:text-center 900:text-[48px]"
     :class="borderClass"
   >
     <h1>WEB DEVELOPER</h1>

@@ -16,14 +16,14 @@ const toggleMenu = () => {
 <template>
   <Container>
     <div
-      class="grid grid-cols-2 grid-rows-[auto, 1fr] h-fit pb-[100px] border-b-4"
+      class="grid grid-cols-2 grid-rows-[auto, 1fr] h-fit pt-20 px-5 900:pb-[100px] 900:border-b-4"
       :class="borderClass"
     >
       <div class="py-11 md:px-[570px] col-span-2 max-[900px]:hidden">
         <ThemeToggle />
       </div>
       <MenuDesktop />
-      <div class="min-[900px]:hidden">
+      <div class="min-[901px]:hidden pl-2">
         <button @click="toggleMenu">
           <Icon icon="ic:sharp-menu" class="text-[35px]" />
         </button>
