@@ -16,7 +16,7 @@ const toggleMenu = () => {
 <template>
   <Container>
     <div
-      class="grid grid-cols-2 grid-rows-[auto, 1fr] h-fit pt-20 px-5 900:pb-[100px] 900:border-b-4"
+      class="grid grid-cols-2 grid-rows-[auto, 1fr] h-fit pt-20 px-5 900:pb-[150px] 900:border-b-4"
       :class="borderClass"
     >
       <div class="py-11 md:px-[570px] col-span-2 max-[900px]:hidden">
