@@ -1,0 +1,10 @@
+{
+  "global": {
+    "about": "ABOUT aqui",
+    "cv": "CV",
+    "projects": "PROJECTS",
+    "contact": "CONTACT",
+    "es": "ES",
+    "en": "EN"
+  }
+}

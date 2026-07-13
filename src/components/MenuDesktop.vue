@@ -11,7 +11,7 @@ const { hoverClass } = useThemeHover()
       <nav
         class="flex flex-col gap-12 text-[24px] font-extrabold tracking-wider pl-[130px] pt-[100px]"
       >
-        <a href="#about" class="px-4 py-3 mr-1" :class="hoverClass">ABOUT</a>
+        <a href="#about" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('global.about') }}</a>
         <a href="#cv" class="px-4 py-3 mr-1" :class="hoverClass">CV</a>
         <a href="#projects" class="px-4 py-3 mr-1" :class="hoverClass">PROJECTS</a>
         <a href="#contact" class="px-4 py-3 mr-1" :class="hoverClass">CONTACTS</a>
