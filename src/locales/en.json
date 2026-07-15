@@ -1,10 +1,16 @@
 {
   "global": {
-    "about": "ABOUT aqui",
-    "cv": "CV",
-    "projects": "PROJECTS",
-    "contact": "CONTACT",
     "es": "ES",
     "en": "EN"
+  },
+  "nav": {
+    "about": "ABOUT",
+    "cv": "CV",
+    "projects": "PROJECTS",
+    "contact": "CONTACT"
+  },
+  "title": {
+    "jobTitle": "WEB DEVELOPER",
+    "name": "Maria Morales"
   }
 }

@@ -1,10 +1,16 @@
 {
   "global": {
-    "about": "SOBRE",
-    "cv": "CV",
-    "projects": "PROJECTOS",
-    "contact": "CONTACTO",
     "es": "ES",
     "en": "EN"
+  },
+  "nav": {
+    "about": "SOBRE MI",
+    "cv": "CV",
+    "projects": "PROYECTOS",
+    "contact": "CONTACTO"
+  },
+  "title": {
+    "jobTitle": "DESARROLLADORA WEB",
+    "name": "Maria Morales"
   }
 }

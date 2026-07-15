@@ -11,16 +11,16 @@ const { hoverClass } = useThemeHover()
       <nav
         class="flex flex-col gap-12 text-[24px] font-extrabold tracking-wider pl-[130px] pt-[100px]"
       >
-        <a href="#about" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('global.about') }}</a>
-        <a href="#cv" class="px-4 py-3 mr-1" :class="hoverClass">CV</a>
-        <a href="#projects" class="px-4 py-3 mr-1" :class="hoverClass">PROJECTS</a>
-        <a href="#contact" class="px-4 py-3 mr-1" :class="hoverClass">CONTACTS</a>
+        <a href="#about" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('nav.about') }}</a>
+        <a href="#cv" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('nav.cv') }}</a>
+        <a href="#projects" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('nav.projects') }}</a>
+        <a href="#contact" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('nav.contact') }}</a>
       </nav>
     </div>
     <div class="flex items-end pb-10 text-[24px] font-extrabold">
-      <button>ES</button>
+      <button>{{ $t('global.es') }}</button>
       <span class="mx-1"> / </span>
-      <button>EN</button>
+      <button>{{ $t('global.en') }}</button>
     </div>
   </div>
 </template>
