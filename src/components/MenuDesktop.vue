@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useThemeBorder } from '@/composables/useThemeBoder'
 import { useThemeHover } from '@/composables/useThemeHover'
+import LanguageToggle from './LanguageToggle.vue'
 
 const { borderClass } = useThemeBorder()
 const { hoverClass } = useThemeHover()
@@ -17,10 +18,6 @@ const { hoverClass } = useThemeHover()
         <a href="#contact" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('nav.contact') }}</a>
       </nav>
     </div>
-    <div class="flex items-end pb-10 text-[24px] font-extrabold">
-      <button>{{ $t('global.es') }}</button>
-      <span class="mx-1"> / </span>
-      <button>{{ $t('global.en') }}</button>
-    </div>
+    <LanguageToggle />
   </div>
 </template>
