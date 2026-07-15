@@ -1,7 +1,7 @@
 {
   "global": {
     "es": "ES",
-    "en": "EN"
+    "en": "IN"
   },
   "nav": {
     "about": "SOBRE MI",
@@ -10,7 +10,7 @@
     "contact": "CONTACTO"
   },
   "title": {
-    "jobTitle": "DESARROLLADORA WEB",
+    "jobTitle": "WEB DEVELOPER",
     "name": "Maria Morales"
   }
 }
