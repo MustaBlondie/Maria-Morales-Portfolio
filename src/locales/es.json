@@ -12,5 +12,23 @@
   "title": {
     "jobTitle": "WEB DEVELOPER",
     "name": "Maria Morales"
+  },
+  "about": {
+    "aboutTitle": "Hola!",
+    "aboutP1": "Soy frontend y me enfoco en hacer interfaces web limpias, responsivas, chéveres y que la gente disfrute usar.",
+    "aboutTitle2": "¿Qué hago?",
+    "skillList": [
+      "Convierto diseños de Figma a HTML/CSS/Vue con buena calidad y atención al detalle.",
+      "Construyo componentes interactivos con Vue 3 (Composition API).",
+      "Escribo código tipado y seguro con TypeScript.",
+      "Integro APIs REST de forma fluida.",
+      "Gestiono el control de versiones con Git y el seguimiento de proyectos y tareas con Trello."
+    ],
+    "aboutTitle3": "Actualmente estoy aprendiendo",
+    "aboutP3": "SQL y Docker",
+    "aboutTitle4": "Languages",
+    "aboutP4": "Spanish (native) — English (B2). I can read technical specs, write clear documentation, and participate in meetings with confidence.",
+    "buttonHelperText1": "¿Te interesa saber más?",
+    "buttonHelperText2": "Haz clic aquí"
   }
 }
