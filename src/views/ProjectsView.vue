@@ -1,18 +1,12 @@
 <script setup lang="ts">
 import Container from '@/components/Container.vue'
+import ProjectCard from '@/components/ProjectCard.vue'
 </script>
 <template>
   <Container>
-    <div id="projects" class="mt-64">
-      <h1>Hola chiquis PROJECTS</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem itaque dignissimos illo
-        illum dolores exercitationem, facilis magnam, quae ad eaque vero magni vitae, nesciunt sint
-        ea. Excepturi praesentium sequi tempore. Lorem ipsum dolor sit amet consectetur adipisicing
-        elit. Asperiores voluptas placeat quae itaque deleniti consequatur quos, recusandae
-        molestiae eos nemo eligendi perspiciatis earum minus neque doloremque! Ipsum praesentium
-        voluptates fugit.
-      </p>
+    <div id="about" class="mt-[200px] px-20">
+      <h2 class="text-right font-bold text-[96px]">{{ $t('projects.projectsMainTitle') }}</h2>
+      <ProjectCard />
     </div>
   </Container>
 </template>
