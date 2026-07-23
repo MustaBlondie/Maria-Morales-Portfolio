@@ -32,6 +32,10 @@
     "buttonHelperText2": "Just click here"
   },
   "projects": {
-    "projectsMainTitle": "PROJECTS"
+    "projectsMainTitle": "PROJECTS",
+    "projMainTitle": "Main Title",
+    "projYear": "2026",
+    "projIntro": "Introductory paragraph",
+    "projTechStackList": "Tech • stack • list"
   }
 }
