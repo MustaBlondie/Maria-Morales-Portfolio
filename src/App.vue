@@ -13,7 +13,7 @@ const { isDark } = storeToRefs(themeStore)
 
 <template>
   <div
-    class="min-h-screen transition-colors duration-300 font-roboto"
+    class="min-h-screen pb-10 transition-colors duration-300 font-roboto"
     :class="{
       'bg-dark text-darkText': isDark,
       'bg-light text-dark': !isDark,
