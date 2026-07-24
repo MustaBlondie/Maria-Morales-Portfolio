@@ -31,7 +31,7 @@
   </div>
 
   <div class="flex mt-[100px]">
-    <div class="grid grid-cols-2 grid-rows-2 gap-5">
+    <div class="grid grid-cols-2 grid-rows-2 gap-9">
       <div class="w-[340px] h-[379px] justify-self-end">
         <img src="../assets/images/1.jpeg" alt="" class="w-full h-full object-cover" />
       </div>
