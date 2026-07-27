@@ -18,7 +18,7 @@
             <p class="font-semibold text-[20px]">{{ $t('projects.projYear') }}</p>
           </div>
 
-          <p class="font-semibold text-[20px]">{{ $t('projects.projIntro') }}</p>
+          <p class="font-medium text-[20px]">{{ $t('projects.projIntro') }}</p>
           <p class="font-semibold text-[20px]">{{ $t('projects.projTechStackList') }}</p>
         </div>
       </div>
@@ -38,7 +38,7 @@
             <p class="font-semibold text-[20px]">{{ $t('projects.projYear') }}</p>
           </div>
 
-          <p class="font-semibold text-[20px]">{{ $t('projects.projIntro') }}</p>
+          <p class="font-medium text-[20px]">{{ $t('projects.projIntro') }}</p>
           <p class="font-semibold text-[20px]">{{ $t('projects.projTechStackList') }}</p>
         </div>
       </div>
