@@ -16,19 +16,29 @@ const { borderClass } = useThemeBorder()
         <div class="flex-1 border-r" :class="borderClass">
           <div class="flex flex-col gap-2 mb-5">
             <Icon icon="mdi:gmail" class="text-[45px]" />
-            <h3 class="text-[20px]">MaVMoZu@gmail.com</h3>
+            <a href="mailto:victorina23x@gmail.com">
+              <h3 class="text-[20px]">MaVMoZu@gmail.com</h3>
+            </a>
           </div>
         </div>
         <div class="flex-1 border-r" :class="borderClass">
           <div class="flex flex-col gap-2 mb-5">
             <Icon icon="mdi:github" class="text-[45px]" />
-            <h3 class="text-[20px]">MustaBlondie</h3>
+            <a href="https://github.com/MustaBlondie" target="_blank" rel="noopener noreferrer"
+              ><h3 class="text-[20px]">MustaBlondie</h3></a
+            >
           </div>
         </div>
         <div class="flex-1">
           <div class="flex flex-col gap-2 mb-5">
             <Icon icon="mdi:linkedin" class="text-[45px]" />
-            <h3 class="text-[20px]">Maria Morales</h3>
+            <a
+              href="https://www.linkedin.com/in/maria-morales-a956a4246/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 class="text-[20px]">Maria Morales</h3>
+            </a>
           </div>
         </div>
       </div>
