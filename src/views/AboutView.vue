@@ -30,7 +30,7 @@ const { borderClass } = useThemeBorder()
           <p class="md:text-[24px]">{{ $t('about.aboutP4') }}</p>
         </div>
       </div>
-      <div class="mt-4 md:mt-20 text-right tracking-[0.09em] md:text-left">
+      <div class="mt-4 md:mt-10 text-right tracking-[0.09em] md:text-left">
         <h3 class="text-[20px] font-semibold">{{ $t('about.buttonHelperText1') }}</h3>
         <h4 class="text-[20px] font-semibold">{{ $t('about.buttonHelperText2') }}</h4>
         <button

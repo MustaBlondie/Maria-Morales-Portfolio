@@ -30,5 +30,12 @@
     "aboutP4": "Español (nativo) — Inglés (B2). Puedo leer especificaciones técnicas, redactar documentación clara y participar en reuniones con confianza.",
     "buttonHelperText1": "¿Te interesa saber más?",
     "buttonHelperText2": "Haz clic aquí"
+  },
+  "cv": {
+    "cvTitle": "Cv",
+    "cvContInfo": "Informatión de Contacto",
+    "cvEducation": "Educación",
+    "cvExperience": "Experiencia",
+    "cvSkills": "Habilidades e Intereses"
   }
 }

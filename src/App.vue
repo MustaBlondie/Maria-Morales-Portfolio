@@ -3,7 +3,7 @@ import AboutView from './views/AboutView.vue'
 import ContactView from './views/ContactView.vue'
 import HomeView from './views/HomeView.vue'
 import ProjectsView from './views/ProjectsView.vue'
-
+import CvView from './views/CvView.vue'
 import { useThemeStore } from './store/theme.ts'
 import { storeToRefs } from 'pinia'
 
@@ -21,6 +21,7 @@ const { isDark } = storeToRefs(themeStore)
   >
     <HomeView />
     <AboutView />
+    <CvView />
     <ProjectsView />
     <ContactView />
   </div>

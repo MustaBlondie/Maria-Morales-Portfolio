@@ -39,6 +39,14 @@
     "projTechStackList": "Tech • stack • list"
   },
   "otherPro": {
-    "otherProMainTitle": "OTHER PROJECTS"
+    "proMainTitle": "OTHER PROJECTS"
+  },
+  "cv": {
+    "cvTitle": "Cv",
+    "cvContInfo": "Contact Information",
+    "cvEducation": "Education",
+    "cvExperience": "Experience",
+    "cvSkills": "Skills & Interests",
+    "cvButtonDown": "Download"
   }
 }
