@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import Container from '@/components/Container.vue'
 import { useThemeBorder } from '@/composables/useThemeBoder'
+import { useThemeHover } from '@/composables/useThemeHover'
+
+const { hoverClass } = useThemeHover()
 
 const { borderClass } = useThemeBorder()
 </script>
@@ -34,8 +37,8 @@ const { borderClass } = useThemeBorder()
         <h3 class="text-[20px] font-semibold">{{ $t('about.buttonHelperText1') }}</h3>
         <h4 class="text-[20px] font-semibold">{{ $t('about.buttonHelperText2') }}</h4>
         <button
-          class="border-2 md:border-4 mt-3 md:mt-5 px-9 py-2 md:text-[24px] font-semibold"
-          :class="borderClass"
+          class="border-2 mt-3 md:mt-5 px-9 py-2 md:text-[20px] font-semibold"
+          :class="[borderClass, hoverClass]"
         >
           {{ $t('nav.cv') }}
         </button>

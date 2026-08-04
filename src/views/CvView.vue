@@ -17,7 +17,7 @@ const items = [
 <template>
   <Container>
     <div id="cv" class="mt-[70px] md:mt-[200px] px-5 md:px-20">
-      <h1 class="text-right md:text-[48px] font-bold mb-5">{{ $t('cv.cvTitle') }}</h1>
+      <h1 class="text-right md:text-[55px] font-bold mb-5">{{ $t('cv.cvTitle') }}</h1>
       <div class="flex gap-14">
         <div class="flex flex-col border divide-y text-center text-[20px]" :class="borderClass">
           <div

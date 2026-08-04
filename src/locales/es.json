@@ -15,27 +15,37 @@
   },
   "about": {
     "aboutTitle": "Hola!",
-    "aboutP1": "Soy frontend y me enfoco en hacer interfaces web limpias, responsivas, chéveres y que la gente disfrute usar.",
-    "aboutTitle2": "¿Qué hago?",
+    "aboutP1": "Mi nombre es Maria Morales y soy desarrolladora frontend. Nací y crecí en Venezuela, pero actualmente vivo en España.",
+    "aboutTitle2": "Lenguajes y Herramientas",
     "skillList": [
-      "Convierto diseños de Figma a HTML/CSS/Vue con buena calidad y atención al detalle.",
-      "Construyo componentes interactivos con Vue 3 (Composition API).",
-      "Escribo código tipado y seguro con TypeScript.",
-      "Integro APIs REST de forma fluida.",
-      "Gestiono el control de versiones con Git y el seguimiento de proyectos y tareas con Trello."
+      "Frontend: HTML, CSS, JavaScript, TypeScript, React, Vue, TailWind",
+      "Herramientas de desarrollo y construcción: Vite, NPM, Git",
+      "Entorno y IDEs: (Ubuntu) Linux, Figma",
+      "Desarrollador frontend explorando el mundo del backend."
     ],
     "aboutTitle3": "Actualmente estoy aprendiendo",
     "aboutP3": "SQL y Docker",
-    "aboutTitle4": "Languages",
+    "aboutTitle4": "Idiomas que hablo",
     "aboutP4": "Español (nativo) — Inglés (B2). Puedo leer especificaciones técnicas, redactar documentación clara y participar en reuniones con confianza.",
     "buttonHelperText1": "¿Te interesa saber más?",
     "buttonHelperText2": "Haz clic aquí"
+  },
+  "projects": {
+    "projectsMainTitle": "PROYECTOS",
+    "projMainTitle": "Main Title",
+    "projYear": "2026",
+    "projIntro": "Introductory paragraph",
+    "projTechStackList": "Tech • stack • list"
+  },
+  "otherPro": {
+    "proMainTitle": "OTROS PROYECTOS"
   },
   "cv": {
     "cvTitle": "Cv",
     "cvContInfo": "Informatión de Contacto",
     "cvEducation": "Educación",
     "cvExperience": "Experiencia",
-    "cvSkills": "Habilidades e Intereses"
+    "cvSkills": "Habilidades e Intereses",
+    "cvButtonDown": "Descargar"
   }
 }
