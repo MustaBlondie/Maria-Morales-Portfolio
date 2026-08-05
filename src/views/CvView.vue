@@ -17,16 +17,21 @@ const items = [
 <template>
   <Container>
     <div id="cv" class="mt-[70px] md:mt-[200px] px-5 md:px-20">
-      <h1 class="text-right md:text-[55px] font-bold mb-5">{{ $t('cv.cvTitle') }}</h1>
-      <div class="flex gap-14">
-        <div class="flex flex-col border divide-y text-center text-[20px]" :class="borderClass">
+      <h1 class="md:text-right text-[36px] md:text-[55px] font-bold mb-5">
+        {{ $t('cv.cvTitle') }}
+      </h1>
+      <div class="flex flex-col md:flex-row gap-14">
+        <div
+          class="grid grid-cols-2 md:grid-cols-1 border divide-x divide-y text-center text-[20px]"
+          :class="borderClass"
+        >
           <div
             v-for="item in items"
             key="item.label"
-            class="flex flex-col px-9 py-8 gap-y-3 text-center text-[20px]"
+            class="flex flex-col p-3 gap-y-1 md:px-9 md:py-8 md:gap-y-3 text-center text-[16px] md:text-[20px]"
             :class="[borderClass, hoverClass]"
           >
-            <Icon :icon="item.icon" class="text-[60px] block mx-auto" />
+            <Icon :icon="item.icon" class="text-[30px] md:text-[60px] block mx-auto" />
             <p>{{ $t(item.label) }}</p>
           </div>
         </div>
@@ -35,7 +40,7 @@ const items = [
       </div>
       <div class="flex justify-end">
         <button
-          class="border-2 mt-3 md:mt-5 px-9 py-2 md:text-[20px] font-semibold"
+          class="border-2 mt-3 md:mt-5 px-9 py-2 md:text-[16px] font-semibold"
           :class="[borderClass, hoverClass]"
         >
           {{ $t('cv.cvButtonDown') }}

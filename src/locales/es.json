@@ -14,7 +14,7 @@
     "name": "Maria Morales"
   },
   "about": {
-    "aboutTitle": "Hola!",
+    "aboutTitle": "¡Hola!",
     "aboutP1": "Mi nombre es Maria Morales y soy desarrolladora frontend. Nací y crecí en Venezuela, pero actualmente vivo en España.",
     "aboutTitle2": "Lenguajes y Herramientas",
     "skillList": [
@@ -42,10 +42,10 @@
   },
   "cv": {
     "cvTitle": "Cv",
-    "cvContInfo": "Informatión de Contacto",
+    "cvContInfo": "Contacto",
     "cvEducation": "Educación",
     "cvExperience": "Experiencia",
-    "cvSkills": "Habilidades e Intereses",
+    "cvSkills": "Habilidades",
     "cvButtonDown": "Descargar"
   }
 }

@@ -15,10 +15,10 @@ const { borderClass } = useThemeBorder()
       <div class="text-right tracking-[0.09em] md:text-left max-w-4xl mt-2 md:mt-4">
         <p class="pl-10 md:pl-0 md:text-[24px]">{{ $t('about.aboutP1') }}</p>
 
-        <div class="hidden md:block">
+        <div>
           <h4 class="md:text-[24px] font-extrabold pt-4 pb-2">{{ $t('about.aboutTitle2') }}</h4>
           <div class="pl-5">
-            <ul class="list-disc pl-2 md:text-[20px]">
+            <ul class="md:list-disc pl-2 md:text-[20px]">
               <li v-for="(skill, index) in $tm('about.skillList')" :key="index">
                 {{ skill }}
               </li>

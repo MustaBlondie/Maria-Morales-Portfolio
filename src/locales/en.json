@@ -42,10 +42,10 @@
   },
   "cv": {
     "cvTitle": "Cv",
-    "cvContInfo": "Contact Information",
+    "cvContInfo": "Contact",
     "cvEducation": "Education",
     "cvExperience": "Experience",
-    "cvSkills": "Skills & Interests",
+    "cvSkills": "Skills",
     "cvButtonDown": "Download"
   }
 }
