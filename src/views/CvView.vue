@@ -22,13 +22,13 @@ const items = [
       </h1>
       <div class="flex flex-col md:flex-row gap-14">
         <div
-          class="grid grid-cols-2 md:grid-cols-1 border divide-x divide-y text-center text-[20px]"
+          class="flex md:flex-col border divide-x md:divide-y md:divide-x-0 text-center text-[20px]"
           :class="borderClass"
         >
           <div
             v-for="item in items"
             key="item.label"
-            class="flex flex-col p-3 gap-y-1 md:px-9 md:py-8 md:gap-y-3 text-center text-[16px] md:text-[20px]"
+            class="flex flex-1 flex-col p-3 gap-y-1 md:px-9 md:py-8 md:gap-y-3 text-center text-[16px] md:text-[20px]"
             :class="[borderClass, hoverClass]"
           >
             <Icon :icon="item.icon" class="text-[30px] md:text-[60px] block mx-auto" />
