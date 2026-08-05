@@ -5,7 +5,7 @@ import ProjectSmallCard from '@/components/ProjectSmallCard.vue'
 </script>
 <template>
   <Container>
-    <div id="projects" class="mt-[200px] px-5 md:px-20">
+    <div id="projects" class="mt-[100px] px-5 md:px-20">
       <h2 class="text-right font-bold text-[45px] md:text-[96px]">
         {{ $t('projects.projectsMainTitle') }}
       </h2>

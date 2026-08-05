@@ -1,6 +1,6 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="flex mt-[100px]">
+  <div class="flex mt-[50px]">
     <div class="grid md:grid-cols-2 md:grid-rows-2 gap-9">
       <div class="row-span-2 md:h-[682px]">
         <img
