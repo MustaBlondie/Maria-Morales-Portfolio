@@ -3,8 +3,8 @@
   <div class="flex flex-col mt-[100px] gap-8">
     <h2 class="font-semibold text-[36px]">{{ $t('otherPro.proMainTitle') }}</h2>
     <div class="flex gap-24">
-      <div class="grid grid-cols-2 gap-4">
-        <div class="w-[212px] h-[236px]">
+      <div class="grid grid-rows-2 md:grid-cols-2 gap-4">
+        <div class="md:w-[212px] md:h-[236px]">
           <img
             src="../assets/images/1.jpeg"
             alt="project_second_image"
@@ -23,8 +23,8 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-2 gap-4">
-        <div class="w-[212px] h-[236px]">
+      <div class="grid grid-rows-2 md:grid-cols-2 gap-4">
+        <div class="md:w-[212px] md:h-[236px]">
           <img
             src="../assets/images/1.jpeg"
             alt="project_second_image"
