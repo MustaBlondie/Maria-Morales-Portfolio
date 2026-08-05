@@ -20,12 +20,16 @@
 
       <div class="flex flex-col gap-y-3">
         <div>
-          <a href="#" class="font-bold text-[32px]">{{ $t('projects.projMainTitle') }}</a>
-          <p class="font-semibold text-[32px]">{{ $t('projects.projYear') }}</p>
+          <a href="#" class="font-bold text-[20px] md:text-[32px]">{{
+            $t('projects.projMainTitle')
+          }}</a>
+          <p class="font-semibold text-[20px] md:text-[32px]">{{ $t('projects.projYear') }}</p>
         </div>
 
-        <p class="text-[32px]">{{ $t('projects.projIntro') }}</p>
-        <p class="font-semibold text-[32px]">{{ $t('projects.projTechStackList') }}</p>
+        <p class="text-[20px] md:text-[32px]">{{ $t('projects.projIntro') }}</p>
+        <p class="font-semibold text-[20px] md:text-[32px]">
+          {{ $t('projects.projTechStackList') }}
+        </p>
       </div>
     </div>
   </div>
@@ -40,12 +44,16 @@
       </div>
       <div class="flex flex-col gap-y-3 text-right">
         <div>
-          <a href="#" class="font-bold text-[32px]">{{ $t('projects.projMainTitle') }}</a>
-          <p class="font-semibold text-[32px]">{{ $t('projects.projYear') }}</p>
+          <a href="#" class="font-bold text-[20px] md:text-[32px]">{{
+            $t('projects.projMainTitle')
+          }}</a>
+          <p class="font-semibold text-[20px] md:text-[32px]">{{ $t('projects.projYear') }}</p>
         </div>
 
-        <p class="text-[32px]">{{ $t('projects.projIntro') }}</p>
-        <p class="font-semibold text-[32px]">{{ $t('projects.projTechStackList') }}</p>
+        <p class="text-[20px] md:text-[32px]">{{ $t('projects.projIntro') }}</p>
+        <p class="font-semibold text-[20px] md:text-[32px]">
+          {{ $t('projects.projTechStackList') }}
+        </p>
       </div>
     </div>
   </div>
