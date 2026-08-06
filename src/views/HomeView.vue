@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import LanguageToggle from '@/components/LanguageToggle.vue'
 import MenuDesktop from '@/components/MenuDesktop.vue'
 import ThemeToggle from '../components/ThemeToggle.vue'
 import Container from '@/components/Container.vue'
@@ -15,20 +16,19 @@ const toggleMenu = () => {
 
 <template>
   <Container>
-    <div
-      class="grid grid-cols-2 grid-rows-[auto, 1fr] h-fit pt-20 px-5 900:pb-[150px] 900:border-b-4"
-      :class="borderClass"
-    >
-      <div class="py-11 md:pl-[570px] col-span-2 max-[900px]:hidden">
+    <div class="w-full flex flex-1 900:justify-center gap-3 pt-16 px-3" :class="borderClass">
+      <LanguageToggle />
+      <MenuDesktop />
+      <div class="max-[900px]:hidden flex items-center">
         <ThemeToggle />
       </div>
-      <MenuDesktop />
-      <div class="min-[901px]:hidden pl-2">
+
+      <div class="min-[901px]:hidden">
         <button @click="toggleMenu">
           <Icon icon="ic:sharp-menu" class="text-[35px]" />
         </button>
       </div>
-      <Title />
     </div>
+    <Title />
   </Container>
 </template>

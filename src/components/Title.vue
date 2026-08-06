@@ -1,14 +1,12 @@
-<script setup lang="ts">
-import { useThemeBorder } from '@/composables/useThemeBoder'
-const { borderClass } = useThemeBorder()
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div
-    class="flex flex-col text-left text-[20px] pl-5 py-4 pr-2 border-l-4 900:border-none sm:mt-auto sm:ml-auto sm:pb-4 sm:pr-8 sm:gap-2 sm:text-[40px] 900:text-center 900:text-[48px]"
-    :class="borderClass"
+    class="flex flex-col text-right md:text-center text-[30px] md:text-[50px] 900:text-[64px] font-extrabold 900:pt-52 px-3"
   >
     <h1>{{ $t('title.jobTitle') }}</h1>
-    <h2>{{ $t('title.name') }}</h2>
+    <h2 class="-mt-2 md:-mt-6 text-outline">
+      {{ $t('title.name') }}
+    </h2>
   </div>
 </template>

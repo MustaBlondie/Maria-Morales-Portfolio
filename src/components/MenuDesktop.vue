@@ -1,23 +1,22 @@
 <script setup lang="ts">
 import { useThemeBorder } from '@/composables/useThemeBoder'
 import { useThemeHover } from '@/composables/useThemeHover'
-import LanguageToggle from './LanguageToggle.vue'
 
 const { borderClass } = useThemeBorder()
 const { hoverClass } = useThemeHover()
 </script>
 <template>
-  <div class="flex gap-8 max-[900px]:hidden">
-    <div class="w-[350px] h-[550px] border-r-4" :class="borderClass">
-      <nav
-        class="flex flex-col gap-12 text-[24px] font-extrabold tracking-wider pl-[130px] pt-[100px]"
-      >
-        <a href="#about" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('nav.about') }}</a>
-        <a href="#cv" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('nav.cv') }}</a>
-        <a href="#projects" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('nav.projects') }}</a>
-        <a href="#contact" class="px-4 py-3 mr-1" :class="hoverClass">{{ $t('nav.contact') }}</a>
+  <div class="max-[900px]:hidden w-full flex justify-center">
+    <div
+      class="w-full max-w-[1108px] h-[81px] px-6 sm:px-12 lg:px-[100px] border-2 flex items-center justify-center"
+      :class="borderClass"
+    >
+      <nav class="flex w-full justify-between text-[20px] font-extrabold tracking-wider">
+        <a href="#about" :class="hoverClass">{{ $t('nav.about') }}</a>
+        <a href="#cv" :class="hoverClass">{{ $t('nav.cv') }}</a>
+        <a href="#projects" :class="hoverClass">{{ $t('nav.projects') }}</a>
+        <a href="#contact" :class="hoverClass">{{ $t('nav.contact') }}</a>
       </nav>
     </div>
-    <LanguageToggle />
   </div>
 </template>
