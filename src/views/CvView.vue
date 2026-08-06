@@ -31,7 +31,7 @@ const items = [
             class="flex flex-1 flex-col p-3 gap-y-1 md:px-9 md:py-8 md:gap-y-3 text-center text-[14px] md:text-[20px]"
             :class="[borderClass, hoverClass]"
           >
-            <Icon :icon="item.icon" class="text-[30px] md:text-[60px] block mx-auto" />
+            <Icon :icon="item.icon" class="text-[22px] md:text-[60px] block mx-auto" />
             <p>{{ $t(item.label) }}</p>
           </div>
         </div>

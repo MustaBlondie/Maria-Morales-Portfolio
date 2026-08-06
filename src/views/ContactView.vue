@@ -8,7 +8,7 @@ const { borderClass } = useThemeBorder()
 
 <template>
   <Container>
-    <div id="contact" class="mx-3 md:mx-28 border px-5 pt-5" :class="borderClass">
+    <div id="contact" class="mx-3 md:mx-28 border px-5 pt-3" :class="borderClass">
       <div class="pb-3">
         <h3 class="font-bold text-[40px] md:text-[96px]">Contact me</h3>
       </div>
