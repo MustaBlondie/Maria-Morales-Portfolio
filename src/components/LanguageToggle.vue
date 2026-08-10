@@ -18,7 +18,7 @@ const setLanguage = (lang: 'en' | 'es') => {
 </script>
 
 <template>
-  <div class="hidden md:flex items-center text-[20px] font-extrabold">
+  <div class="flex items-center text-[20px] font-extrabold">
     <Icon icon="ic:round-language" class="text-[45px]" />
     <div class="text-[16px] relative">
       <button @click="toggleDropDown" class="flex flex-col items-center uppercase">

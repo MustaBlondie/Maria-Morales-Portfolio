@@ -6,9 +6,9 @@ const { borderClass } = useThemeBorder()
 const { hoverClass } = useThemeHover()
 </script>
 <template>
-  <div class="max-[900px]:hidden w-full flex justify-center">
+  <div class="w-full flex justify-center">
     <div
-      class="w-full max-w-[1108px] h-[81px] px-6 sm:px-12 lg:px-[100px] border-2 flex items-center justify-center"
+      class="max-[900px]:hidden w-full max-w-[1108px] h-[81px] px-6 sm:px-12 lg:px-[100px] border-2 flex items-center justify-center"
       :class="borderClass"
     >
       <nav class="flex w-full justify-between text-[20px] font-extrabold tracking-wider">

@@ -17,8 +17,11 @@ const toggleMenu = () => {
 <template>
   <Container>
     <div class="w-full flex flex-1 900:justify-center gap-3 pt-16 px-3" :class="borderClass">
-      <LanguageToggle />
+      <div class="max-[900px]:hidden">
+        <LanguageToggle />
+      </div>
       <MenuDesktop />
+
       <div class="max-[900px]:hidden flex items-center">
         <ThemeToggle />
       </div>
