@@ -9,10 +9,15 @@
     "projects": "PROYECTOS",
     "contact": "CONTACTO"
   },
-  "title": {
-    "jobTitle": "WEB DEVELOPER",
-    "name": "Maria Morales"
+  "hero": {
+    "title": {
+      "greeting": "¡Hola! Soy",
+      "name": "Maria",
+      "role": "Desarrolladora Frontend"
+    },
+    "description": "Creo experiencias web responsivas e intuitivas para el usuario."
   },
+
   "about": {
     "aboutTitle": "¡Hola!",
     "aboutP1": "Mi nombre es Maria Morales y soy desarrolladora frontend. Nací y crecí en Venezuela, pero actualmente vivo en España.",

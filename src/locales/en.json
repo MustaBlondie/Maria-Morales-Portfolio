@@ -9,9 +9,13 @@
     "projects": "PROJECTS",
     "contact": "CONTACT"
   },
-  "title": {
-    "jobTitle": "WEB DEVELOPER",
-    "name": "Maria Morales"
+  "hero": {
+    "title": {
+      "greeting": "Hello, I'm",
+      "name": "Maria",
+      "role": "Frontend Developer"
+    },
+    "description": "I build responsive and user-friendly web experiences."
   },
   "about": {
     "aboutTitle": "Hello!",

@@ -3,7 +3,7 @@ import LanguageToggle from '@/components/LanguageToggle.vue'
 import MenuDesktop from '@/components/MenuDesktop.vue'
 import ThemeToggle from '../components/ThemeToggle.vue'
 import Container from '@/components/Container.vue'
-import Title from '@/components/Title.vue'
+import Hero from '@/components/Hero.vue'
 import { useThemeBorder } from '@/composables/useThemeBoder.ts'
 import { Icon } from '@iconify/vue'
 
@@ -38,6 +38,6 @@ const toggleMenu = () => {
         </div>
       </div>
     </div>
-    <Title />
+    <Hero />
   </Container>
 </template>
