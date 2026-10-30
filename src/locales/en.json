@@ -15,6 +15,7 @@
       "name": "Maria",
       "role": "Frontend Developer"
     },
+    "codeLanguages": ["Vue 3", "TypeScript", "JavaScript", "HTML", "CSS", "TailWind CSS"],
     "description": "I build responsive and user-friendly web experiences."
   },
   "about": {
