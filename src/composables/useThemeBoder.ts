@@ -7,8 +7,8 @@ export function useThemeBorder() {
   const { isDark } = storeToRefs(themeStore)
 
   const borderClass = computed(() => ({
-    'border-light': isDark.value,
-    'border-dark': !isDark.value,
+    'border-border-light': isDark.value,
+    'border-border-dark': !isDark.value,
   }))
 
   return { borderClass }

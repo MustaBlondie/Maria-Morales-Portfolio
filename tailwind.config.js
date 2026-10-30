@@ -5,9 +5,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        dark: '#111314', // Fondo en modo oscuro / texto en modo claro
-        darkText: '#F8B6BA', // Texto en modo oscuro
-        light: '#FDD4BD', // Fondo en modo claro
+        // Backgrounds
+        'bg-dark': '#111314',
+        'bg-light': '#CC9DA0',
+
+        // Textos principales
+        'text-dark': '#F8B6BA',
+        'text-light': '#111314',
+
+        // Textos secundarios
+        'text-secondary-dark': '#F6DCDE',
+        'text-secondary-light': '#F00000',
+
+        // Bordes
+        'border-dark': '#111314',
+        'border-light': '#FCC9DA0',
       },
       fontFamily: {
         roboto: ['Roboto Slab', 'serif'],
