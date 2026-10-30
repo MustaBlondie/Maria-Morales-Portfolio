@@ -20,6 +20,12 @@ export default {
         // Bordes
         'border-dark': '#111314',
         'border-light': '#CC9DA0',
+
+        // Botones Backgrounds y bordes
+        'btn-bg-dark': '#F8B6BA',
+        'btn-bg-light': '#111314',
+        'btn-border-dark': '#F8B6BA',
+        'btn-border-light': '#111314',
       },
       fontFamily: {
         roboto: ['Roboto Slab', 'serif'],

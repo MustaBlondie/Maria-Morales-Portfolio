@@ -3,6 +3,11 @@
     "es": "SP",
     "en": "EN"
   },
+  "buttons": {
+    "viewProjects": "VIEW MY PROJECTS",
+    "contact": "CONTACT ME",
+    "sendMessage": "SEND MESSAGE"
+  },
   "nav": {
     "home": "HOME",
     "about": "ABOUT",

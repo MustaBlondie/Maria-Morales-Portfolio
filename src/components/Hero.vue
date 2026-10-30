@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import BaseButton from './BaseButton.vue'
 import Title from './Title.vue'
 </script>
 
@@ -20,12 +21,17 @@ import Title from './Title.vue'
           <li
             v-for="(skill, index) in $tm('hero.codeLanguages')"
             :key="index"
-            class="flex items-center gap-x-4 before:content-['·'] before:text-text-secondary-light dark:before:text-text-secondary-dark"
+            class="flex items-center gap-x-5 before:content-['·'] before:text-text-secondary-light dark:before:text-text-secondary-dark"
             :class="{ 'before:hidden': index === 0 }"
           >
             {{ skill }}
           </li>
         </ul>
+      </div>
+
+      <div class="mt-[50px] flex flex-wrap gap-8">
+        <BaseButton :text="$t('buttons.viewProjects')" />
+        <BaseButton :text="$t('buttons.contact')" variant="outline" />
       </div>
     </div>
 
