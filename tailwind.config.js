@@ -7,7 +7,7 @@ export default {
       colors: {
         // Backgrounds
         'bg-dark': '#111314',
-        'bg-light': '#CC9DA0',
+        'bg-light': '#E4D6D6',
 
         // Textos principales
         'text-dark': '#F8B6BA',
@@ -15,11 +15,11 @@ export default {
 
         // Textos secundarios
         'text-secondary-dark': '#F6DCDE',
-        'text-secondary-light': '#F00000',
+        'text-secondary-light': '#000000',
 
         // Bordes
         'border-dark': '#111314',
-        'border-light': '#FCC9DA0',
+        'border-light': '#CC9DA0',
       },
       fontFamily: {
         roboto: ['Roboto Slab', 'serif'],

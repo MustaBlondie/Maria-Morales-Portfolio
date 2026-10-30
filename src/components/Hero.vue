@@ -7,7 +7,9 @@ import Title from './Title.vue'
     <div class="mx-[20px]">
       <Title />
       <div class="w-full max-w-[550px]">
-        <p class="text-[24px] tracking-[0.12em]">
+        <p
+          class="text-[24px] tracking-[0.12em] text-text-secondary-light dark:text-text-secondary-dark"
+        >
           {{ $t('hero.description') }}
         </p>
       </div>
