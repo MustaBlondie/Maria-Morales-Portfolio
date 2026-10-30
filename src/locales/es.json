@@ -15,7 +15,8 @@
       "name": "Maria",
       "role": "Frontend Developer"
     },
-    "description": "Creo experiencias web responsivas e intuitivas para el usuario."
+    "description": "Creo experiencias web responsivas e intuitivas para el usuario.",
+    "codeLanguages": ["Vue 3", "TypeScript", "JavaScript", "HTML", "CSS", "TailWind CSS"]
   },
 
   "about": {
