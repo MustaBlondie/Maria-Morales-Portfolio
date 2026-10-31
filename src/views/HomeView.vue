@@ -17,7 +17,7 @@ const toggleMenu = () => {
 <template>
   <Container>
     <div
-      class="w-full max-w-[1300px] mx-auto flex flex-1 items-center justify-between pt-16 px-3 border-b"
+      class="w-full max-w-[1300px] mx-auto flex flex-1 items-center justify-between pt-9 px-3 border-b"
       :class="borderClass"
     >
       <div class="max-[900px]:hidden">

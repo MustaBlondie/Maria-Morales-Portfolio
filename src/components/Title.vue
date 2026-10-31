@@ -2,8 +2,10 @@
 
 <template>
   <div>
-    <div class="flex items-baseline gap-5">
-      <h1 class="text-[24px] uppercase font-medium tracking-[0.15em]">
+    <div class="flex items-baseline gap-5 md:gap-3">
+      <h1
+        class="pb-2 text-[16px] sm:text-[18px] md:text-[24px] uppercase font-medium tracking-[0.10em] md:tracking-[0.15em]"
+      >
         {{ $t('hero.title.greeting') }} {{ $t('hero.title.name') }}
       </h1>
 
@@ -17,7 +19,7 @@
     </div>
 
     <h2
-      class="tracking-[0.09em] normal-case font-extrabold text-[60px] text-text-secondary-light dark:text-text-secondary-dark"
+      class="pb-2 tracking-[0.05em] leading-none normal-case font-extrabold text-[50px] md:text-[60px] md:leading-normal text-text-secondary-light dark:text-text-secondary-dark"
     >
       {{ $t('hero.title.role') }}
     </h2>
