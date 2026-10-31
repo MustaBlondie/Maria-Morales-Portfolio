@@ -19,7 +19,7 @@
     </div>
 
     <h2
-      class="pb-2 tracking-[0.05em] leading-none normal-case font-extrabold text-[50px] md:text-[60px] md:leading-normal text-text-secondary-light dark:text-text-secondary-dark"
+      class="pb-4 tracking-[0.05em] leading-none normal-case font-extrabold text-[50px] md:text-[60px] md:leading-normal text-text-secondary-light dark:text-text-secondary-dark"
     >
       {{ $t('hero.title.role') }}
     </h2>
