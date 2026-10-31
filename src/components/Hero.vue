@@ -29,7 +29,7 @@ import Title from './Title.vue'
         </ul>
       </div>
 
-      <div class="mt-[50px] flex flex-wrap gap-8">
+      <div class="mt-[50px] flex gap-4 md:gap-8">
         <BaseButton :text="$t('buttons.viewProjects')" />
         <BaseButton :text="$t('buttons.contact')" variant="outline" />
       </div>

@@ -13,15 +13,15 @@ withDefaults(defineProps<Props>(), {
 
 <template>
   <button
-    v-if="variant === 'primary'"
-    class="max-w-[259px] w-full inline-flex items-center justify-center gap-2 py-3 dark:bg-btn-bg-dark bg-btn-bg-light text-center text-text-secondary-dark dark:text-text-secondary-light"
+    class="flex-auto min-w-0 basis-auto md:flex-none md:w-[259px] text-xs md:text-[16px] tracking-[0.05em] px-2 py-3 text-center inline-flex items-center justify-center gap-2"
+    :class="
+      variant === 'primary'
+        ? 'dark:bg-btn-bg-dark bg-btn-bg-light dark:text-text-secondary-light text-text-secondary-dark'
+        : 'border-2 dark:border-btn-border-dark border-btn-border-light'
+    "
   >
-    {{ text }} <Icon icon="akar-icons:arrow-right" />
-  </button>
-  <button
-    v-else
-    class="max-w-[259px] w-full py-3 border-2 dark:border-btn-border-dark border-btn-border-light text-center"
-  >
-    {{ text }}
+    <span class="min-w-0">{{ text }}</span>
+
+    <Icon v-if="variant === 'primary'" icon="akar-icons:arrow-right" class="shrink-0" />
   </button>
 </template>
