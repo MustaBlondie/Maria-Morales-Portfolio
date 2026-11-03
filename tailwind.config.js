@@ -26,6 +26,9 @@ export default {
         'btn-bg-light': '#111314',
         'btn-border-dark': '#F8B6BA',
         'btn-border-light': '#111314',
+
+        // background rectangule hero image
+        'bg-hero-recta': '#98585C',
       },
       fontFamily: {
         roboto: ['Roboto Slab', 'serif'],
