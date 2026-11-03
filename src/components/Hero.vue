@@ -5,7 +5,9 @@ import Title from './Title.vue'
 </script>
 
 <template>
-  <div class="w-full max-w-[1180px] mx-auto pt-[30px] sm:pt-[50px] md:pt-[150px] flex flex-wrap">
+  <div
+    class="w-full max-w-[1180px] mx-auto pt-[30px] sm:pt-[50px] md:pt-[150px] flex flex-wrap gap-14"
+  >
     <div class="mx-[20px]">
       <Title />
       <div class="w-full max-w-[550px]">
@@ -37,7 +39,7 @@ import Title from './Title.vue'
     </div>
 
     <div
-      class="mx-[20px] mt-[30px] basis-[min(372px,calc(100vw-80px))] shrink min-w-0 max-w-[calc(100%-40px)]"
+      class="mx-[20px] basis-[min(372px,calc(100vw-80px))] shrink min-w-0 max-w-[calc(100%-40px)]"
     >
       <HeroImage />
     </div>
