@@ -25,21 +25,10 @@
   },
 
   "about": {
-    "aboutTitle": "¡Hola!",
-    "aboutP1": "Mi nombre es Maria Morales y soy desarrolladora frontend. Nací y crecí en Venezuela, pero actualmente vivo en España.",
-    "aboutTitle2": "Lenguajes y Herramientas",
-    "skillList": [
-      "Frontend: HTML, CSS, JavaScript, TypeScript, React, Vue, TailWind",
-      "Herramientas de desarrollo y construcción: Vite, NPM, Git",
-      "Entorno y IDEs: (Ubuntu) Linux, Figma",
-      "Desarrollador frontend explorando el mundo del backend."
-    ],
-    "aboutTitle3": "Actualmente estoy aprendiendo",
-    "aboutP3": "SQL y Docker",
-    "aboutTitle4": "Idiomas que hablo",
-    "aboutP4": "Español (nativo) — Inglés (B2). Puedo leer especificaciones técnicas, redactar documentación clara y participar en reuniones con confianza.",
-    "buttonHelperText1": "¿Te interesa saber más?",
-    "buttonHelperText2": "Haz clic aquí"
+    "title": "SOBRE MI",
+    "role": "¡Encantada de conocerte! Soy María",
+    "descriptionOne": "Soy desarrolladora Frontend y me encanta transformar ideas en diseños funcionales y bien pensados. Creo interfaces atractivas y con sentido.",
+    "descriptionTwo": "Siempre curiosa, siempre aprendiendo y, de vez en cuando, resolviendo algún que otro bug."
   },
   "projects": {
     "projectsMainTitle": "PROYECTOS",

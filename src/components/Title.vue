@@ -1,7 +1,7 @@
 <script setup lang="ts">
 interface Props {
   greeting: string
-  name: string
+  name?: string
   role: string
   showDecorativeLines?: boolean
 }

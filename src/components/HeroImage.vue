@@ -1,6 +1,6 @@
 <template>
-  <div class="relative w-[372px] max-w-full aspect-[372/431]">
-    <div class="absolute top-0 right-0 w-[72%] h-[97%]">
+  <div class="relative w-[372px] max-w-full aspect-[372/420]">
+    <div class="absolute top-0 right-0 w-[72%] h-[90%]">
       <div
         aria-hidden="true"
         class="w-full h-full inset-0 border border-btn-border-light dark:border-btn-border-dark [--grid-color:theme(colors.btn-border-light)] dark:[--grid-color:theme(colors.btn-border-dark)]"
@@ -25,12 +25,16 @@
       ></div>
     </div>
 
-    <div class="absolute top-[9.28%] left-0 w-[77%] h-[188px]">
+    <div class="absolute top-[9.28%] left-0 w-[77%] h-[180px]">
       <div class="w-full h-full bg-bg-hero-recta"></div>
     </div>
 
-    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[86%]">
-      <img class="max-w-full max-h-full" src="../assets/images/Hero_Maria_image.png" alt="Maria" />
+    <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[84%] h-[405px]">
+      <img
+        class="w-full h-full object-contain object-bottom"
+        src="../assets/images/Hero_Maria_image.png"
+        alt="Maria"
+      />
     </div>
   </div>
 </template>

@@ -6,7 +6,7 @@ import HeroTitle from './HeroTitle.vue'
 
 <template>
   <div
-    class="w-full max-w-[1180px] mx-auto pt-[30px] sm:pt-[50px] md:pt-[150px] flex flex-wrap gap-14"
+    class="w-full max-w-[1180px] mx-auto pt-[30px] mb-[50px] sm:pt-[50px] md:pt-[150px] flex flex-wrap gap-14"
   >
     <div class="mx-[20px]">
       <HeroTitle />
