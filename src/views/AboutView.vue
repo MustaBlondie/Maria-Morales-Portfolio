@@ -5,19 +5,24 @@ import Container from '@/components/Container.vue'
 
 <template>
   <Container>
-    <div id="about" class="w-full max-w-[1180px] mx-3 mb-14 sm:pt-[50px] md:pt-[100px] flex gap-14">
+    <div
+      id="about"
+      class="w-full max-w-[1100px] px-3 mb-14 sm:pt-[50px] md:pt-[100px] flex flex-wrap gap-14"
+    >
       <div class="w-full max-w-[550px]">
         <AboutTitle />
-        <p
-          class="mb-4 text-[16px] md:text-[18px] tracking-[0.15em] text-text-secondary-light dark:text-text-secondary-dark"
-        >
-          {{ $t('about.descriptionOne') }}
-        </p>
-        <p
-          class="hidden md:block text-[16px] md:text-[18px] tracking-[0.15em] text-text-secondary-light dark:text-text-secondary-dark"
-        >
-          {{ $t('about.descriptionTwo') }}
-        </p>
+        <div>
+          <p
+            class="mb-4 text-[16px] md:text-[18px] tracking-[0.15em] text-text-secondary-light dark:text-text-secondary-dark"
+          >
+            {{ $t('about.descriptionOne') }}
+          </p>
+          <p
+            class="hidden md:block text-[16px] md:text-[18px] tracking-[0.15em] text-text-secondary-light dark:text-text-secondary-dark"
+          >
+            {{ $t('about.descriptionTwo') }}
+          </p>
+        </div>
       </div>
       <div></div>
     </div>
