@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import BaseButton from './BaseButton.vue'
 import HeroImage from './HeroImage.vue'
-import Title from './Title.vue'
+import HeroTitle from './HeroTitle.vue'
 </script>
 
 <template>
@@ -9,7 +9,7 @@ import Title from './Title.vue'
     class="w-full max-w-[1180px] mx-auto pt-[30px] sm:pt-[50px] md:pt-[150px] flex flex-wrap gap-14"
   >
     <div class="mx-[20px]">
-      <Title />
+      <HeroTitle />
       <div class="w-full max-w-[550px]">
         <p
           class="text-[16px] sm:text-[18px] md:text-[24px] tracking-[0.12em] text-text-secondary-light dark:text-text-secondary-dark"
