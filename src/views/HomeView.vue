@@ -1,16 +1,20 @@
 <script setup lang="ts">
+import { ref } from 'vue'
 import LanguageToggle from '@/components/LanguageToggle.vue'
 import MenuDesktop from '@/components/MenuDesktop.vue'
 import ThemeToggle from '../components/ThemeToggle.vue'
 import Container from '@/components/Container.vue'
+import MobileMenu from '@/components/MobileMenu.vue'
 import Hero from '@/components/Hero.vue'
-import { useThemeBorder } from '@/composables/useThemeBoder.ts'
+import { useThemeBorder } from '@/composables/useThemeBorder.ts'
 import { Icon } from '@iconify/vue'
 
 const { borderClass } = useThemeBorder()
 
+const isMenuOpen = ref(false)
+
 const toggleMenu = () => {
-  console.log('hola babosos jeje')
+  isMenuOpen.value = !isMenuOpen.value
 }
 </script>
 
@@ -40,5 +44,7 @@ const toggleMenu = () => {
       </div>
     </div>
     <Hero />
+
+    <MobileMenu v-if="isMenuOpen" @close="isMenuOpen = false" />
   </Container>
 </template>

@@ -6,7 +6,9 @@ const themeStore = useThemeStore()
 </script>
 
 <template>
-  <button @click="themeStore.toggleTheme()">
-    <Icon icon="game-icons:light-bulb" class="text-[45px] rotate-180" />
-  </button>
+  <div>
+    <button @click="themeStore.toggleTheme()">
+      <Icon icon="game-icons:light-bulb" class="text-[45px] rotate-180" />
+    </button>
+  </div>
 </template>
