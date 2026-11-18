@@ -8,6 +8,7 @@ import MobileMenu from '@/components/MobileMenu.vue'
 import Hero from '@/components/Hero.vue'
 import { useThemeBorder } from '@/composables/useThemeBorder.ts'
 import { Icon } from '@iconify/vue'
+import { useScrollLock } from '@/composables/useScrollLock.ts'
 
 const { borderClass } = useThemeBorder()
 
@@ -16,6 +17,8 @@ const isMenuOpen = ref(false)
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
 }
+
+useScrollLock(isMenuOpen)
 </script>
 
 <template>
